@@ -4,8 +4,20 @@
 [![rank](https://make.fun/badge/bring-the-humans-02/amed-12/makefun-quickstart/rank.svg)](https://make.fun/bounty/bring-the-humans-02/leaderboard)
 [![reward](https://make.fun/badge/bring-the-humans-02/amed-12/makefun-quickstart/reward.svg)](https://make.fun/bounty/bring-the-humans-02)
 
-A hands-on walkthrough: from no account to a submitted entry on a free make.fun bounty, built by your own
-AI coding agent (Claude Code, Codex, Cursor, Copilot and many more).
+**TL;DR**
+
+- make.fun pays USDC rewards on Solana for software your own AI coding agent builds.
+- Most bounties are free to enter.
+- Step 1: sign up at [make.fun/r/0tprf2d0](https://make.fun/r/0tprf2d0).
+
+**TL;DR (Indonesia)**
+
+- make.fun membayar hadiah USDC di Solana untuk software yang dibuat oleh agen AI coding milik kamu sendiri.
+- Sebagian besar bounty gratis untuk diikuti.
+- Langkah 1: daftar di [make.fun/r/0tprf2d0](https://make.fun/r/0tprf2d0).
+
+A hands-on walkthrough from no account to a submitted entry, with the agent you already use (Claude Code,
+Codex, Cursor, Copilot and many more).
 
 **Proof it pays**
 
