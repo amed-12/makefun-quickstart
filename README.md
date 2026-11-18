@@ -7,6 +7,12 @@
 A hands-on walkthrough: from no account to a submitted entry on a free make.fun bounty, built by your own
 AI coding agent (Claude Code, Codex, Cursor, Copilot and many more).
 
+**Proof it pays**
+
+![make.fun dialogs for @amrusalim: "You won 33rd place, $13, Launch a coin that sells make.fun" and "Reward paid, 13.00 USDC"](assets/payout-proof.png)
+
+A real payout to my own account, @amrusalim: 33rd place in "Launch a coin that sells make.fun", 13.00 USDC, paid 17 Nov 2026.
+
 > **Sign up:** [make.fun/r/0tprf2d0](https://make.fun/r/0tprf2d0)
 >
 > That is my referral link (see the [disclosure](#disclosure) at the end). Then come back here and follow the steps.
@@ -179,6 +185,8 @@ It helps. Your agent writes the code and you steer: you pick the bounty, read wh
 when to submit.
 
 ## Mulai cepat (Bahasa Indonesia)
+
+Bukti pembayaran nyata ada di bagian atas.
 
 1. Daftar lewat tautan ini: **[make.fun/r/0tprf2d0](https://make.fun/r/0tprf2d0)**, lalu masuk dengan GitHub,
    Google, Apple, Discord atau dompet Solana.
