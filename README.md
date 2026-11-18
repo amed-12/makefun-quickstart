@@ -25,6 +25,10 @@ Codex, Cursor, Copilot and many more).
 
 A real payout to my own account, @amrusalim: 33rd place in "Launch a coin that sells make.fun", 13.00 USDC, paid 17 Nov 2026.
 
+<img src="assets/profile-earnings.jpg" width="300" alt="make.fun profile of @amrusalim: 44 entries, 2 rewards won, $14.50 earned">
+
+My profile: 2 rewards from 44 entries, $14.50 earned in total. Most entries win nothing.
+
 > **Sign up:** [make.fun/r/0tprf2d0](https://make.fun/r/0tprf2d0)
 >
 > That is my referral link (see the [disclosure](#disclosure) at the end). Then come back here and follow the steps.
