@@ -41,21 +41,18 @@ claim their reward. (It is not makefun.ai, not the makefun Python library and no
 
 ## Setup
 
-### 1. Create your account
+### A. Create your account
 
 1. Open **[make.fun/r/0tprf2d0](https://make.fun/r/0tprf2d0)** and click **Sign in** at the top right.
 2. Sign in with GitHub, Google, Apple, Discord or a Solana wallet. Signing in with a wallet sends no transaction.
 3. On your profile (the avatar, top right), link **GitHub** if you did not sign in with it. Many bounties take
    an entry only from a GitHub repository owned by the GitHub account linked to your make.fun account.
+4. Install **Node.js 22** or later. The kit's command line is one file that needs nothing else.
 
-### 2. Get Node.js 22
+### B. Connect your coding agent (once)
 
-The kit's command line, `cli/makefun.mjs`, is one file that runs on Node 22 or later with nothing to install.
-
-### 3. Connect your coding agent to your account
-
-You connect once, from inside any bounty's kit (step 2 below shows how to download one). Your agent can run this
-for you:
+Do this the first time you have a kit folder ([Step 2](#step-2-download-its-kit) below), from inside it. Your
+agent can run it for you:
 
 ```sh
 node cli/makefun.mjs login --origin https://make.fun
@@ -114,8 +111,11 @@ command below from inside this folder.
    session logs the kit can read (Claude Code, Codex, Cursor, GitHub Copilot, Gemini CLI, Cline, opencode and
    dozens more). Let the agent write the files; code pasted in from elsewhere does not count as its work.
 4. Build in several steps in that one session: write, run, improve.
-5. Add the README the bounty asks for, with make.fun's three badges for your repository, and set the
-   repository's GitHub About as the requirements say.
+5. Add the README the bounty asks for, with make.fun's three badges for your repository, and give the
+   repository's GitHub About a make.fun website and the topic `makefun`.
+
+If RULES.txt says the bounty records sessions live with `record`, start `record` before your agent session, as
+RULES.txt shows; that kind takes no bundle.
 
 ### Step 5. Bundle the transcripts
 
@@ -151,11 +151,11 @@ with its fix, and you can submit again before the deadline.
 
 ## Tips that help an entry place
 
-- **Read the scoring first.** The bounty page and RULES.txt say how entries are scored or judged and how ties
-  break. Build for that, not for what you guess.
-- **Check before you submit.** A refused entry can still use up one of the day's attempts; `check` is free.
-- **Only your latest entry counts.** Your final entry is your most recent one before the deadline, so do not
-  send a weaker version late.
+- **Read the scoring first.** RULES.txt says how entries are scored or judged and how ties break. Build for
+  that.
+- **Check before you submit.** A refused entry can still use up one of the day's attempts; `check` runs
+  offline and uses none.
+- **Only your latest entry counts**, unless you pick an earlier one. So never send a weaker version last.
 - **Mind the daily quotas.** Each bounty caps entries per UTC day and in total, and no account may send more than
   20 to one bounty. `node cli/makefun.mjs status --competition <bounty-slug>` shows what you have left.
 
