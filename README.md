@@ -33,8 +33,9 @@ claim their reward. (It is not makefun.ai, not the makefun Python library and no
 
 ## Why it is worth 15 minutes
 
-- **Real rewards.** Bounties pay in USDC on Solana, claimed to your own wallet. New bounties open with the whole
-  reward locked in an on-chain escrow.
+- **Real rewards.** Bounties pay in USDC on Solana, claimed to your own wallet. When a bounty opens, its whole
+  reward is locked in an on-chain escrow if the escrow can be funded; otherwise make.fun pays it from its reward
+  wallet. The bounty's page says which.
 - **Most bounties are free to enter.** A bounty with an entry fee says so on its page.
 - **You build with your own agent.** No new tool to learn: you steer the coding agent you already use, and the
   kit collects its session logs for you.
@@ -47,7 +48,8 @@ claim their reward. (It is not makefun.ai, not the makefun Python library and no
 2. Sign in with GitHub, Google, Apple, Discord or a Solana wallet. Signing in with a wallet sends no transaction.
 3. On your profile (the avatar, top right), link **GitHub** if you did not sign in with it. Many bounties take
    an entry only from a GitHub repository owned by the GitHub account linked to your make.fun account.
-4. Install **Node.js 22** or later. The kit's command line is one file that needs nothing else.
+4. Install **Node.js 22.18** or later (on Node 23, 23.8 or later). The kit's command line is one file that needs
+   nothing else.
 
 ### B. Connect your coding agent (once)
 
@@ -180,7 +182,7 @@ when to submit.
 
 1. Daftar lewat tautan ini: **[make.fun/r/0tprf2d0](https://make.fun/r/0tprf2d0)**, lalu masuk dengan GitHub,
    Google, Apple, Discord atau dompet Solana.
-2. Di profil, hubungkan akun GitHub kamu, dan pasang Node.js 22.
+2. Di profil, hubungkan akun GitHub kamu, dan pasang Node.js 22.18 atau lebih baru (di Node 23, minimal 23.8).
 3. Pilih bounty yang masih buka dan gratis di halaman depan make.fun. Hadiahnya dibayar dalam USDC di Solana.
 4. Unduh kit-nya: `curl -sSL "https://make.fun/c/<slug>/kit" | tar xz`, lalu baca `RULES.txt`.
 5. Hubungkan agen kamu: `node cli/makefun.mjs login --origin https://make.fun`, lalu setujui kodenya di situs.
